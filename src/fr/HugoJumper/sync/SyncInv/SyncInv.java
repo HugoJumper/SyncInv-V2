@@ -54,14 +54,14 @@ public class SyncInv  extends JavaPlugin {
     private void registerDb() {
         try{
         this.database.connect();
-        this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ========== ENABLE START =========");
-        this.getConsoleSender().sendMessage(ChatColor.AQUA + " Database successfully connected !");
+        this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ========== Connection en cours =========");
+        this.getConsoleSender().sendMessage(ChatColor.AQUA + " Base de données Connecte !");
         this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ==========================================");
     }
         catch(SQLException exception){
-        this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ========== SQL CONNECTION FAILED =========");
+        this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ========== Connection SQL echouer =========");
         this.getConsoleSender().sendMessage(ChatColor.RED + " Your SQL has to be checked in your config.yml");
-        this.getConsoleSender().sendMessage(ChatColor.RED + " Plugin is disabling...");
+        this.getConsoleSender().sendMessage(ChatColor.RED + " Plugin désactiver...");
         this.getConsoleSender().sendMessage(ChatColor.YELLOW + " ==========================================");
         exception.printStackTrace();
         getServer().getPluginManager().disablePlugin((Plugin) this);
