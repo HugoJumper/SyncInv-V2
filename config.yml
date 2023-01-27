@@ -1,0 +1,17 @@
+database:
+  host: localhost
+  username: root
+  password: ""
+  database: sync
+  engine: mysql
+  port: 3306
+
+  syncTableName: synchronization
+  ##Traduire le retour des commands ##
+not-player: "&cVous n'étes pas un joueur."
+no-permission: "&cYou do not have permission to execute this command."
+player-not-found: "&cPlayer not found."
+kick-reason: "&cYou've been kicked out. Your stuff has been saved..."
+
+title-name: "&e&6Survie &e"
+subtitle-name: "&fInventaire &esynchroniz"

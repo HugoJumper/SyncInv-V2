@@ -1,0 +1,7 @@
+name: FunventureSyncInvV1
+main: fr.HugoJumper.sync.SyncInv.SyncInv
+version: 1.0.1
+author: [Hugo_Jumper]
+commands:
+  ## Revoir la commande de kick non fonctionnel ##
+  saveandkick:

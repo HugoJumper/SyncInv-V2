@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="yaml-base64-decoder-0.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Yaml_Base64_Decoder-0.0.2/Yaml Base64 Decoder/lib/yaml-base64-decoder-0.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

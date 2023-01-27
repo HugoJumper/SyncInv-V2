@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FunventureSyncInvV1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FunventureSyncInvV1_jar</output-path>
+    <root id="archive" name="FunventureSyncInvV1.jar">
+      <element id="module-output" name="FunventureSyncInvV1" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-api-1.18.1-R0.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Yaml_Base64_Decoder-0.0.2/Yaml Base64 Decoder/lib/yaml-base64-decoder-0.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/yaml-222.3345.35/yaml/lib/yaml.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>

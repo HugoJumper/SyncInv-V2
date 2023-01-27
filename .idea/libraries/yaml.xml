@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yaml">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/yaml-222.3345.35/yaml/lib/yaml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
