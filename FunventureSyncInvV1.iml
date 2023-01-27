@@ -16,8 +16,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="spigot-api-1.18.1-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="yaml" level="project" />
     <orderEntry type="library" name="yaml-base64-decoder-0.0.2" level="project" />
+    <orderEntry type="library" name="spigot-api-1.18.1-R0.1-SNAPSHOT" level="application" />
   </component>
 </module>
